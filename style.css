@@ -110,20 +110,12 @@ h1{
 
 /* dream section */
 .section-dream{
-  position: relative;
-}
-.dream-bg{
-  width: 7rem;
-  height: 18rem;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .dream-container{
   display: flex;
-  position: relative;
-  z-index: 2;
 }
 .dream-left{
   flex: 0.85;
