@@ -52,13 +52,13 @@ h4 {
 
 .btn {
   text-transform: uppercase;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2.5rem;
   display: inline-block;
   font-weight: 700;
   font-size: 1rem;
   border: 2px solid transparent;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   border-radius: var(--radius);
 }
 .btn:hover {
@@ -67,7 +67,7 @@ h4 {
 }
 
 /* banner section */
-.banner{
+.section-banner{
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
@@ -76,7 +76,6 @@ h4 {
   margin: 0 auto;
   max-width: 1170px;
   min-height: 100vh;
-  
 }
 .banner-container{
   display: flex;
@@ -97,7 +96,7 @@ h1{
 }
 .banner-left p{
   color: dimgray;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .btn-hireme{
   background: linear-gradient(45deg, lightsalmon, tomato);
@@ -107,3 +106,37 @@ h1{
   flex: 0.85;
   position: relative;
 }
+/* end of banner section */
+
+/* dream section */
+.section-dream{
+  position: relative;
+}
+.dream-bg{
+  width: 7rem;
+  height: 18rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.dream-container{
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.dream-left{
+  flex: 0.85;
+}
+.dream-right{
+  flex: 1;
+  padding: 2rem 0 2rem 6rem;
+}
+.dream-right h3{
+  margin-bottom: 1.5rem;
+}
+.dream-right p{
+  color: dimgray;
+  margin-bottom: 0.5rem;
+}
+/* end of dream section */
